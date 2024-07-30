@@ -2,7 +2,7 @@
 
 ## Chapter 3 - Large Language Models
 
-The code snippet in this directory demonstrates the use of the `tiktoken` tokenizer library used with OpenAI language models.
+The Python script in this directory demonstrates the use of the `tiktoken` tokenizer library used with OpenAI language models.
 
 First you need to install the `tiktoken` package:
 
