@@ -1,0 +1,10 @@
+[tool.ruff]
+
+indent-width = 4
+line-length = 88
+
+# Assume Python 3.10
+target-version = "py310"
+
+# include notebooks
+extend-include = ["*.ipynb"]
