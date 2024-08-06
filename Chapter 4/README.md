@@ -42,7 +42,7 @@ Now your MongoDB Atlas cluster is set up and ready to be used for storing data w
 
 ### Open API key and Atlas connection string
 
-Open `semantic_search.py` and add your OPEN AI API Key and MongoDB Atlas connection string as follows:
+Open `semantic_search.py` and add your OpenAI API key and MongoDB Atlas connection string as follows:
 
 ```
 os.environ["OPENAI_API_KEY"] = "<your-openai-api-key>"
