@@ -1,6 +1,6 @@
 # Building AI Intensive Python Applications
 
-## Chapter 6 - Embedding Models
+## Chapter 4 - Embedding Models
 
 The Python script in this directory uses the `langchain-openai` library to embed textual data with OpenAI's `text-embedding-3-large` model, tailored to produce 1024 dimensional vectors versus 3072, and then the `langchain_mongodb` library to store vectors and execute vector searches.
 
@@ -19,7 +19,7 @@ To create an Atlas vector search index named `text_vector_index` with the provid
 3. Click "Add my own data" to create an empty database and collection as follows:
 * Database name: `embeddings`
 * Collection name: `text`
-4. Once created, click on the "Create Search Index" button.
+4. Once created, navigate to the "Atlas Search" tab, then click on the "Create Search Index" button.
 5. Click "Atlas Vector Search / JSON Editor" and then "Next".
 6. Select the "embeddings/text" collection.
 7. Enter the Index Name as `text_vector_index`.
@@ -40,15 +40,15 @@ To create an Atlas vector search index named `text_vector_index` with the provid
 
 Now your MongoDB Atlas cluster is set up and ready to be used for storing data with vectors and executing vector searches.
 
-### Open API key and Atlas connection string
+### OpenAI API key and Atlas connection string
 
-Open `semantic_search.py` and add your OpenAI API key and MongoDB Atlas connection string as follows:
+Open `semantic_search.py` and add your OpenAI API key and MongoDB Atlas connection string as noted below. You can find the connection string under "Database > Connect" in the Atlas console.
 
 ```
 os.environ["OPENAI_API_KEY"] = "<your-openai-api-key>"
 ATLAS_CONNECTION_STRING = "<your-connection-string>"
 ```
-Note: Ensure your OpenAI API Key has access to the `text-embedding-3-large` model.
+Note: Ensure your OpenAI API key has access to the `text-embedding-3-large` model.
 
 ### Python libraries and environment
 

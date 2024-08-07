@@ -1,5 +1,5 @@
 # Building AI Intensive Python Applications
-# Chapter 6 - Embedding Models
+# Chapter 4 - Embedding Models
 
 # Requires: langchain, langchain-mongodb, langchain-openai, pymongo
 # Requires: virtualenv, python3, pip3
