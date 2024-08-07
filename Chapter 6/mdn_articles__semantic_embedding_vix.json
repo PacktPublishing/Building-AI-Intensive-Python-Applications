@@ -1,0 +1,18 @@
+{
+  "fields": [
+    {
+      "numDimensions": 1024,
+      "path": "semantic_embedding",
+      "similarity": "cosine",
+      "type": "vector"
+    },
+    {
+      "path": "brand",
+      "type": "filter"
+    },
+    {
+      "path": "subscription_type",
+      "type": "filter"
+    }
+  ]
+}

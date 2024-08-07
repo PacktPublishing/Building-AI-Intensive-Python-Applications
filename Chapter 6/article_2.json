@@ -1,0 +1,56 @@
+{
+  "brand": "MONGODB",
+  "created": "2024-07-15",
+  "createdBy": "john.doe@mongodb.com",
+  "tags": [
+    "Health",
+    "medicine",
+    "biotechnology",
+    "gene editing"
+  ],
+  "revised": "2023-07-17",
+  "revision": 8,
+  "title": "CRISPR: The Frontier of Gene Editing",
+  "summary": "An in-depth look at how CRISPR technology is revolutionizing medicine and biotechnology.",
+  "subscription_type": "paid",
+  "contributors": [
+    {
+      "type": "author",
+      "id": {
+        "$oid": "66b39ad5b244729a287708af"
+      }
+    },
+    {
+      "type": "editor",
+      "id": {
+        "$oid": "66b39ad6b244729a287708b0"
+      }
+    }
+  ],
+  "contents": [
+    {
+      "type": "image",
+      "id": {
+        "$oid": "66b39ad7b244729a287708b1"
+      },
+      "title": "crispr-lab1",
+      "description": "CRISPR technology is providing new ways to edit genes and treat genetic disorders.",
+      "imgUrl": "https://s3.amazonaws.com/mybucket/images/crispr-technology1.jpg"
+    },
+    {
+      "type": "image",
+      "id": {
+        "$oid": "66b39ae8b244729a287708b2"
+      },
+      "title": "crispr-lab2",
+      "description": "CRISPR technology is providing new ways to edit genes and treat genetic disorders.",
+      "imgUrl": "https://s3.amazonaws.com/mybucket/images/crispr-technology2.jpg"
+    }
+  ],
+  "body": {
+    "markup": "<p>CRISPR is a powerful tool for editing genomes, allowing researchers to alter DNA sequences and modify gene function...</p>",
+    "plainText": "CRISPR is a powerful tool for editing genomes, allowing researchers to alter DNA sequences and modify gene function...",
+    "wordCount": 1250
+  },
+  "type": "article"
+}

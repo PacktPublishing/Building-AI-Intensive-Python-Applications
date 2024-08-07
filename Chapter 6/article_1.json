@@ -1,0 +1,36 @@
+{
+    "brand": "PACKT",
+    "created": "2024-06-10",
+    "createdBy": "jane.smith@packt.com",
+    "tags": ["Climate", "sustainability", "renewable energy", "solar power"],
+    "revised": "2022-06-12",
+    "revision": 5,
+    "title": "Solar Energy Advances: Powering the Future",
+    "summary": "Exploring the latest innovations in solar technology and their potential impact on sustainable energy solutions.",
+    "subscription_type": "free",
+    "contributors": [
+        {
+            "type": "author",
+            "id": {"$oid": "66b39a7fb244729a287708ac"}
+        },
+        {
+            "type": "editor",
+            "id": {"$oid": "66b39a85b244729a287708ad"}
+        }
+    ],
+    "contents": [
+        {
+            "type": "image",
+            "id": {"$oid": "66b39a8ab244729a287708ae"},
+            "title": "solar-panels",
+            "description": "Innovations in solar panel technology are making renewable energy more efficient and accessible.",
+            "imgUrl": "https://s3.amazonaws.com/mybucket/images/solar-energy.jpg"
+        }
+    ],
+    "body": {
+        "markup": "<p>Solar energy is becoming increasingly important in the quest for sustainable energy solutions...</p>",
+        "plainText": "Solar energy is becoming increasingly important in the quest for sustainable energy solutions...",
+        "wordCount": 980
+    },
+    "type": "article"
+}
