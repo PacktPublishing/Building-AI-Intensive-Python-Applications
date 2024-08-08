@@ -1,17 +1,22 @@
 {
   "brand": "MONGODB",
-  "created": "2024-07-15",
+  "created": {
+    "$date": "2024-08-01"
+  },
   "createdBy": "john.doe@mongodb.com",
   "tags": [
-    "Health",
-    "medicine",
-    "biotechnology",
-    "gene editing"
+    "MongoDB",
+    "AI Course",
+    "Andrew Ng",
+    "DeepLearning.AI",
+    "Vector Search"
   ],
-  "revised": "2023-07-17",
+  "revised": {
+    "$date": "2024-08-07"
+  },
   "revision": 8,
-  "title": "CRISPR: The Frontier of Gene Editing",
-  "summary": "An in-depth look at how CRISPR technology is revolutionizing medicine and biotechnology.",
+  "title": "MongoDB AI Course in Partnership with Andrew Ng and DeepLearning.AI",
+  "summary": "Building on this foundation, we're excited to announce our collaboration with AI pioneer Andrew Ng and DeepLearning.AI, a leading educational technology company specializing in AI and machine learning. Together, we've created an informative course that bridges the gap between database technology and modern AI applications, further enhancing our mission to support developers in their journey to build innovative solutions.",
   "subscription_type": "paid",
   "contributors": [
     {
@@ -33,23 +38,23 @@
       "id": {
         "$oid": "66b39ad7b244729a287708b1"
       },
-      "title": "crispr-lab1",
-      "description": "CRISPR technology is providing new ways to edit genes and treat genetic disorders.",
-      "imgUrl": "https://s3.amazonaws.com/mybucket/images/crispr-technology1.jpg"
+      "title": "DeepLearningAI-lab1",
+      "description": "Prompt Compression and Query Optimization.",
+      "imgUrl": "https://s3.amazonaws.com/mybucket/images/DeepLearningAI-lab1.jpg"
     },
     {
       "type": "image",
       "id": {
         "$oid": "66b39ae8b244729a287708b2"
       },
-      "title": "crispr-lab2",
-      "description": "CRISPR technology is providing new ways to edit genes and treat genetic disorders.",
-      "imgUrl": "https://s3.amazonaws.com/mybucket/images/crispr-technology2.jpg"
+      "title": "DeepLearningAI-lab2",
+      "description": "MongoDB's document model: The perfect fit for AI.",
+      "imgUrl": "https://s3.amazonaws.com/mybucket/images/DeepLearningAI-lab2.jpg"
     }
   ],
   "body": {
-    "markup": "<p>CRISPR is a powerful tool for editing genomes, allowing researchers to alter DNA sequences and modify gene function...</p>",
-    "plainText": "CRISPR is a powerful tool for editing genomes, allowing researchers to alter DNA sequences and modify gene function...",
+    "markup": "<p>MongoDB’s latest course on DeepLearning.AI, Prompt Compression and Query Optimization, covers the prominent form factor of modern AI applications today: Retrieval Augmented Generation (RAG). This course showcases how MongoDB Atlas Vector Search capabilities enable developers to build sophisticated AI applications, leveraging MongoDB as an operational and vector database...</p>",
+    "plainText": "MongoDB’s latest course on DeepLearning.AI, Prompt Compression and Query Optimization, covers the prominent form factor of modern AI applications today: Retrieval Augmented Generation (RAG). This course showcases how MongoDB Atlas Vector Search capabilities enable developers to build sophisticated AI applications, leveraging MongoDB as an operational and vector database...",
     "wordCount": 1250
   },
   "type": "article"
