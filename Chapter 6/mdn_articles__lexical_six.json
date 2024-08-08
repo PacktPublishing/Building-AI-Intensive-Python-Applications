@@ -1,0 +1,25 @@
+{
+  "mappings": {
+    "dynamic": false,
+    "fields": {
+      "brand": {
+        "normalizer": "lowercase",
+        "type": "token"
+      },
+      "subscription_type": {
+        "normalizer": "lowercase",
+        "type": "token"
+      },
+      "summary": {
+        "type": "string"
+      },
+      "tags": {
+        "normalizer": "lowercase",
+        "type": "token"
+      },
+      "title": {
+        "type": "string"
+      }
+    }
+  }
+}

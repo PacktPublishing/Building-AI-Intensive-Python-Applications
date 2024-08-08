@@ -1,0 +1,22 @@
+{
+  "fields": [
+    {
+      "numDimensions": 768,
+      "path": "content_embedding",
+      "similarity": "cosine",
+      "type": "vector"
+    },
+    {
+      "path": "brand",
+      "type": "filter"
+    },
+    {
+      "path": "subscription_type",
+      "type": "filter"
+    },
+    {
+      "path": "_id.article_id",
+      "type": "filter"
+    }
+  ]
+}

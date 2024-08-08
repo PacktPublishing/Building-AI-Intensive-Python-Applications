@@ -1,0 +1,62 @@
+{
+  "brand": "PACKT",
+  "created": {
+    "$date": "2024-08-01"
+  },
+  "createdBy": "pedro.seymour@packt.com",
+  "tags": [
+      "Multi-modal Search",
+      "Anyscale",
+      "Apace Ray",
+      "Multi-modal Vector Embedding",
+      "Semantic Search",
+      "E-commerce Platform"
+    ],
+  "revised": {
+    "$date": "2024-08-05"
+  },
+  "revision": 7,
+  "title": "AI and Automation: Transforming Industries",
+  "summary": "A comprehensive review of how AI and automation are reshaping various industries and driving efficiency.",
+  "subscription_type": "paid",
+  "contributors": [
+    {
+      "type": "author",
+      "id": {
+        "$oid": "66b39b8bb244729a287708b6"
+      }
+    },
+    {
+      "type": "editor",
+      "id": {
+        "$oid": "66b39b8ab244729a287708b5"
+      }
+    }
+  ],
+  "contents": [
+    {
+      "type": "image",
+      "id": {
+        "$oid": "66b39b89b244729a287708b4"
+      },
+      "title": "ai-robot1",
+      "description": "AI and automation technologies are driving significant changes in various industries, improving efficiency and productivity.",
+      "imgUrl": "https://s3.amazonaws.com/mybucket/images/ai-automation1.jpg"
+    },
+    {
+      "type": "image",
+      "id": {
+        "$oid": "66b39b88b244729a287708b3"
+      },
+      "title": "ai-robot2",
+      "description": "AI and automation technologies are driving significant changes in various industries, improving efficiency and productivity.",
+      "imgUrl": "https://s3.amazonaws.com/mybucket/images/ai-automation2.jpg"
+    }
+  ],
+  "body": {
+    "markup": "<p>Artificial intelligence and automation are rapidly transforming industries, creating new opportunities and challenges...</p>",
+    "plainText": "Artificial intelligence and automation are rapidly transforming industries, creating new opportunities and challenges...",
+    "wordCount": 1100
+  },
+  "type": "article"
+}

@@ -1,0 +1,52 @@
+{
+    "brand": "PACKT",
+    "created": {
+        "$date": "2024-08-01"
+    },
+    "createdBy": "jane.smith@packt.com",
+    "tags": [
+        "Python AI",
+        "MongoDB Atlas",
+        "Haystack",
+        "NLP (Natural Language Processing)",
+        "Vector Search Integration"
+    ],
+    "revised": {
+        "$date": "2024-08-10"
+    },
+    "revision": 5,
+    "title": "Elevate Your Python AI Projects with MongoDB and Haystack",
+    "summary": "MongoDB is excited to announce an integration with Haystack, enhancing MongoDB Atlas Vector Search for Python developers. This integration amplifies our commitment to providing developers with cutting-edge tools for building AI applications centered around semantic search and Large Language Models (LLMs).",
+    "subscription_type": "free",
+    "contributors": [
+        {
+            "type": "author",
+            "id": {
+                "$oid": "66b39a7fb244729a287708ac"
+            }
+        },
+        {
+            "type": "editor",
+            "id": {
+                "$oid": "66b39a85b244729a287708ad"
+            }
+        }
+    ],
+    "contents": [
+        {
+            "type": "image",
+            "id": {
+                "$oid": "66b39a8ab244729a287708ae"
+            },
+            "title": "python-ai",
+            "description": "Atlas Vector Search: Enhance AI development with Haystack.",
+            "imgUrl": "https://s3.amazonaws.com/mybucket/images/python-ai-haystack.jpg"
+        }
+    ],
+    "body": {
+        "markup": "<p>Haystack is an open-source Python framework that simplifies AI application development. It enables developers to start their projects quickly, experiment with different AI models, and to efficiently scale their applications...</p>",
+        "plainText": "Haystack is an open-source Python framework that simplifies AI application development. It enables developers to start their projects quickly, experiment with different AI models, and to efficiently scale their applications...",
+        "wordCount": 980
+    },
+    "type": "article"
+}
