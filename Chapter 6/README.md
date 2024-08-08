@@ -32,10 +32,13 @@ Now your MongoDB Atlas cluster is set up and ready to be used for storing data w
 
 ### OpenAI API key and Atlas connection string
 
-Open `change_stream.py` and add your OpenAI API key and MongoDB Atlas connection string as noted below. You can find the connection string under "Database > Connect" in the Atlas console.
+Open `change_stream.py` and add your OpenAI API key and MongoDB Atlas connection string as noted below. For You can find the connection string under "Database > Connect" in the Atlas console. Please see the following links for further instructions on obtaining these:
+* [Find your OpenAI API key](https://help.openai.com/en/articles/4936850-where-do-i-find-my-openai-api-key)
+* [Find your MongoDB Atlas connection string](https://www.mongodb.com/docs/guides/atlas/connection-string/)
 
 ```
 os.environ["OPENAI_API_KEY"] = "<your-openai-api-key>"
+
 ATLAS_CONNECTION_STRING = "<your-connection-string>"
 ```
 Note: Ensure your OpenAI API key has access to the `text-embedding-3-large` model.
