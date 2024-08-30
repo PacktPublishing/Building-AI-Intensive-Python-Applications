@@ -1,6 +1,6 @@
 # Setting up Python Environment
 
-This README provides instructions on how to set up the Python environment required to run the `vector_search_ai_application.ipynb` notebook.
+This README provides instructions on how to set up the Python environment required to run the `vector_search_ai_application.ipynb` or similarly `chunking_strategies.ipynb` or `advanced_rag_example.ipynb` notebook.
 
 ## Prerequisites
 
@@ -57,9 +57,10 @@ Before proceeding, make sure you have the following installed on your system:
     ```
     jupyter notebook
     ```
+2. Update `.env` file with your own OpenAI API key and MongoDB Atlas connection string.
 
-2. In your browser, navigate to the notebook file `vector_search_ai_application.ipynb`.
+3. In your browser, navigate to the notebook file `vector_search_ai_application.ipynb` or similarly `chunking_strategies.ipynb` or `advanced_rag_example.py`.
 
-3. Open the notebook and run the cells sequentially to execute the AI application.
+4. Open the notebook and run the cells sequentially to execute the AI application.
 
 That's it! You have successfully set up the Python environment and can now run the `vector_search_ai_application.ipynb` notebook.
